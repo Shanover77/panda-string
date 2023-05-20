@@ -4,8 +4,12 @@ const {
     calculateStringSimilarity
   } = require('./src/stringUtil');
   
-  // Export the functions
-  module.exports = {
-    calculateStringSimilarity
-  };
+  const {
+    extractInformation
+  } = require('./src/extractUtil');
   
+// Export the functions
+module.exports = {
+  calculateStringSimilarity,
+  extractInformation
+};
