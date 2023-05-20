@@ -10,10 +10,10 @@ const { calculateStringSimilarity } = require('panda-string');
 
 ## Implementation:
 
-const string1 = "Hello world";
-const string2 = "World hello";
-const similarity = calculateStringSimilarity(string1, string2);
-console.log(similarity); // Output: 0.9999999999999998
+const string1 = "Hello world";  
+const string2 = "World hello";  
+const similarity = calculateStringSimilarity(string1, string2);  
+console.log(similarity); // Output: 0.9999999999999998  
 
-## License
+## License  
 panda-string is released under the MIT License. You are free to use, modify, and distribute this package.
