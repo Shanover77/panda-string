@@ -5,7 +5,7 @@ You can install the panda-string package using npm:
 npm install panda-string
 
 ## Usage:
-// Import the functions from the panda-string package
+// Import the functions from the panda-string package  
 const { calculateStringSimilarity } = require('panda-string');
 
 ## Implementation:
